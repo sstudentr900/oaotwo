@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vue": "^3.2.36",
+        "vue-loader": "^17.3.1"
+    },
+    "dependencies": {
+        "@vee-validate/i18n": "^4.12.2",
+        "@vee-validate/rules": "^4.12.2",
+        "aos": "^2.3.4",
+        "autoprefixer": "10.4.5",
+        "rellax": "^1.12.1",
+        "vee-validate": "^4.12.2",
+        "vue-router": "^4.2.5"
+    }
+}
